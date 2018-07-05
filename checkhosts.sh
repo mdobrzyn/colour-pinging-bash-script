@@ -1,7 +1,6 @@
 #!/bin/bash
 declare -i ok
 declare -i fail
-#declare -i avg
 
 ok=0
 fail=0
@@ -13,7 +12,7 @@ do
     avg=`timeout 0.2 ping -c 1 $host | tail -1| awk '{print $4}' | cut -d '/' -f 2`
     if [ ! -z $avg ]
     then
-        tput setaf 2; echo "OK     | $host $avg ms";tput sgr0
+        tput setaf 2; echo "OK     | $host      $avg ms";tput sgr0
         ((ok=ok+1))
     else
         tput setaf 1; echo "FAILED | $host"; tput sgr0
