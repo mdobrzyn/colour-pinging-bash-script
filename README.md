@@ -8,8 +8,8 @@ It is working very fast. in 0.3s you can check avaiability od 50 hosts.
 
 1. Clone repo
 ```bash
-git clone https://github.com/mdobrzyn/colour-pinging-bash-script.git
-chmod +x checkping
+ git clone https://github.com/mdobrzyn/colour-pinging-bash-script.git
+ chmod +x checkping
 ```
 2. Edit hosts.txt Put IPs or hostnames
 ```bash
