@@ -1,21 +1,27 @@
 # Colour pinging bash script
+
 Scripts provide to get fast information about availability hosts.
 The output is in colour so it easy to find which host is not working.
 
 It is working very fast. in 0.3s you can check avaiability od 50 hosts.
 
-# Installation
+## Installation
 
 1. Clone repo
+
 ```bash
- git clone https://github.com/mdobrzyn/colour-pinging-bash-script.git
- chmod +x checkping
+git clone https://github.com/mdobrzyn/colour-pinging-bash-script.git
+chmod +x checkping
 ```
+
 2. Edit hosts.txt Put IPs or hostnames
+
 ```bash
 vi hosts.txt
 ```
-4. Run script and get colored output
+
+3. Run script and get colored output
+
 ```bash
 ./checkping
 
@@ -61,7 +67,8 @@ OK 2
 FAILED 35
 ```
 
-5. Run in neverending loop
+4. Run in neverending loop
+
 ```bash
 while [ 1 ]; do ./checkping; sleep 2; done
 ```
