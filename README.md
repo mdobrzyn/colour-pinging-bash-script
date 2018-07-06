@@ -3,7 +3,7 @@
 Scripts provide to get fast information about availability hosts.
 The output is in colour so it easy to find which host is not working.
 
-It is working very fast. in 0.3s you can check avaiability od 50 hosts.
+It is working very fast. in 0.3s you can check avaiability of 50 hosts.
 
 ## Installation
 
@@ -29,7 +29,7 @@ FAILED | 10.144.20.138
 FAILED | 10.144.20.144
 FAILED | 105.133.145.218
 FAILED | 105.133.142.213
-OK     | 8.8.8.8 29.319 ms
+OK     | 8.8.8.8          29.319 ms
 FAILED | 105.133.152.197
 FAILED | 105.133.140.213
 FAILED | 105.133.140.216
